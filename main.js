@@ -8,14 +8,14 @@
         }
         var hash= {
 
-            'a':'alibaba.com',
-            'b':'bilibili.com',
-            'q': 'qq.com',
-            'w': 'weibo.com',
-            'e': 'ele.me',
-            'r': 'renren.com',
-            't': 'twitter.com',
-            'g':'github.com'
+            'a':'https://alibaba.com',
+            'b':'https://bilibili.com',
+            'q': 'https://qq.com',
+            'w': 'https://weibo.com',
+            'r': 'https://renren.com',
+            't': 'https://twitter.com',
+            'g':'https://github.com',
+            'v':'https://v2ex.com'
 
         }
         var hashInLocalStorage =getFromLocalStorage('zzz');
