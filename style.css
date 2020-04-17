@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+kbd {
+    border: 1px solid red;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+kbd > button {
+    position: absolute;
+    display: none;
+    right: 0;
+    bottom: 0;
+}
+kbd:hover > button{
+    display: inline-block;
+}
+#main > div:nth-child(2) {
+    margin-left: -22px;
+}
+#main > div:nth-child(3) {
+    margin-left: -80px;
+}
+#main {
+    display: inline-block;
+}
+body {
+    background:   grey url(./wall.jpg) no-repeat center center;
+    background-size: cover;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.key{
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, #292929 0%,#111111 100%);
+    border: 1px solid #373737;
+    color: #c5c5c5;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px #1A1B1C, 0 0 0 2px #1F2020,0 3px 0 2px #080808;
+    font-size: 18px;
+    font-family: Hevetica;
+    position: relative;
+}
+.wrapper {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+.row {
+    margin: 16px 0 ;
+}
+.row .key {
+    margin: 0 10px;
+}
+.key img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+
+}
+.key .text {
+    position: absolute;
+    left: 3px;
+    top: 0px;
+}
+form .button{
+    margin: 0;
+    font: 12px arial;
+    cursor: pointer;
+    width: 104px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0;
+    background: 0 0;
+    background-color: #38f;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2e7ae5;
+}
+form .input{
+    height: 20px;
+    font: 16px arial;
+    border: 1px solid #b8b8b8;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: top;
+    outline: 0;
+    box-shadow: none;
+    margin: 0;
+    width: 480px;
+    padding: 9px 48px 9px 7px;
+}
+.form-wrapper{
+    margin-bottom: 50px;
+    background: rgba(255,255,255,0.7);
+    padding: 14px;
+    border-radius: 12px;
+}
