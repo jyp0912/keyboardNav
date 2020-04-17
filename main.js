@@ -50,7 +50,7 @@
                 button.id=row[index2];//给每个键加上id
                 var img=tag('img');
                 if (hash[row[index2]]){
-                    img.src='https://'+hash[row[index2]]+'/favicon.ico';
+                    img.src=hash[row[index2]]+'/favicon.ico';
                 }else{
                     img.src='https://i.loli.net/2017/11/10/5a05afbc5e183.png';
                 }
